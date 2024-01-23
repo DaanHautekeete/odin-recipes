@@ -1,0 +1,25 @@
+/*import fonts from fonts.google.com*/
+  @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lobster&family=Lobster+Two&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Katibeh&display=swap');
+
+  
+  body{
+    background-color: #bee3db;
+    font-family: "Katibeh", serif;
+    font-size: 25px;
+    
+  }
+
+#title{
+  text-align: center;
+  font-size: 80px;
+}
+
+img{
+  height: auto;
+  width: 450;
+}
+
+.important{
+  font-weight: bold;
+}
