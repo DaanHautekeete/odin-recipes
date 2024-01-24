@@ -35,3 +35,8 @@ img{
 li{
   margin-bottom: 20px;
 }
+
+.link.homepage{
+  /*Change location of the text to the center*/
+  text-align: center;
+}
