@@ -2,25 +2,36 @@
   @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lobster&family=Lobster+Two&display=swap');
   @import url('https://fonts.googleapis.com/css2?family=Katibeh&display=swap');
 
-  
-body{
+
+body{  
+  /*Edit background color*/
   background-color: #caf0f8;
+
+  /*Change font-family and font-size*/
   font-family: "Katibeh", serif;
   font-size: 30px;
-
 }
 
 img{
+  /*Adjust the size of the images*/
+  /*Height: auto ==> don't lose proportions*/
   height: auto;
   width: 400px;
 }
 
 #title{
+  /*Change the location and the size of the text*/
   text-align: center;
   font-size: 80px;
 }
 
 
 .important{
+  /*Display important text in bold*/
   font-weight: bold;
+}
+
+
+li{
+  margin-bottom: 20px;
 }
