@@ -3,22 +3,23 @@
   @import url('https://fonts.googleapis.com/css2?family=Katibeh&display=swap');
 
   
-  body{
-    background-color: #bee3db;
-    font-family: "Katibeh", serif;
-    font-size: 25px;
-    
-  }
+body{
+  background-color: #caf0f8;
+  font-family: "Katibeh", serif;
+  font-size: 30px;
+
+}
+
+img{
+  height: auto;
+  width: 400px;
+}
 
 #title{
   text-align: center;
   font-size: 80px;
 }
 
-img{
-  height: auto;
-  width: 450;
-}
 
 .important{
   font-weight: bold;
