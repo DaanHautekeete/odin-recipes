@@ -11,21 +11,20 @@ body
   font-family: "Katibeh", serif;
   font-size: 25px;
   box-sizing: border-box;
-
+  
   
 }
 
 /* Properties for the wrapper */
 #wrapper{  
   text-align: center;
-  
 }
 
-.logo{
+img{
   /*Adjust the size of the images*/
   /*Height: auto ==> don't lose proportions*/
   height: auto;
-  width: 200px;
+  width: 300px;
   border: 3px solid transparent;
   border-radius: 20px;
   display: inline-block;
@@ -38,7 +37,7 @@ body
   height: auto;
 
   /* Give title margin from the rest of the page */
-  margin: 0 auto;
+  margin: auto;
 
   /* Give a border to the title */
   border: 4px solid transparent;
@@ -49,9 +48,9 @@ body
 
 }
 
-/* Edit styles of  general information*/
-#general-information{
-  
+
+/* Edit styles of the recipe section */
+#recipes, #steps, #ingredients, #general-information{
   border: 4px solid transparent;
   background-color: #00b4d8;
 
@@ -62,29 +61,20 @@ body
   /* Add margin to the section */
   margin: 30px auto;
 
-  /* Give the border extra style */
-  border-radius: 20px;
-
-}
-
-/* Edit styles of the recipe section */
-#recipes{
-  border: 4px solid transparent;
-  background-color: #00b4d8;
-
-  /* Edit size of the section */
-  height: auto;
-  width: 600PX;
-
-  /* Add margin to the section */
-  margin: 30px auto;
 
   /* Give the border extra style */
   border-radius: 20px;
 }
 
+#ingredients li{
+  list-style: none;
+}
+/* Give the steps a padding for the right side to center the text more with the title */
+#steps ol, #general-information p, #ingredients ul{
+  padding: 0 40px;
+}
 
-
+/* Edit style for the links and list items */
 #links li{
   /* Change display type */
   display: inline-block;
@@ -102,17 +92,20 @@ body
   list-style: none;
 }
 
+/* Remove the line under the links and change color to white */
 #links li a{
   text-decoration: none;
   color: white;
 }
 
+/* Give the right position the the links on index.html */
 #links ul{
   width: 500px;
   height: 100px;
   margin: auto;
   padding-right: 40px;
 }
+
 
 footer{
   background-color: #00b4d8;
@@ -125,7 +118,7 @@ footer{
   width: 600PX;
 
   /* Add margin to the section */
-  margin: 20px auto;
+  margin: auto;
 
   /* Give the border extra style */
   border-top-left-radius: 20px;
