@@ -2,41 +2,132 @@
   @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lobster&family=Lobster+Two&display=swap');
   @import url('https://fonts.googleapis.com/css2?family=Katibeh&display=swap');
 
-
-body{  
-  /*Edit background color*/
-  background-color: #caf0f8;
-
+/* Set properties for the whole page */
+body
+{
+  /* background-color: #caf0f8; */
+  background-color: #90e0ef;
   /*Change font-family and font-size*/
   font-family: "Katibeh", serif;
-  font-size: 30px;
+  font-size: 25px;
+  box-sizing: border-box;
+
+  
 }
 
-img{
+/* Properties for the wrapper */
+#wrapper{  
+  text-align: center;
+  
+}
+
+.logo{
   /*Adjust the size of the images*/
   /*Height: auto ==> don't lose proportions*/
   height: auto;
-  width: 400px;
+  width: 200px;
+  border: 3px solid transparent;
+  border-radius: 20px;
+  display: inline-block;
 }
 
 #title{
-  /*Change the location and the size of the text*/
-  text-align: center;
-  font-size: 80px;
+  background-color: #00b4d8;
+  /*Change the location and the size of the text*/ 
+  width: 600px;
+  height: auto;
+
+  /* Give title margin from the rest of the page */
+  margin: 0 auto;
+
+  /* Give a border to the title */
+  border: 4px solid transparent;
+
+  /* Give the border extra style */
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+
+}
+
+/* Edit styles of  general information*/
+#general-information{
+  
+  border: 4px solid transparent;
+  background-color: #00b4d8;
+
+  /* Edit size of the section */
+  height: auto;
+  width: 600px;
+
+  /* Add margin to the section */
+  margin: 30px auto;
+
+  /* Give the border extra style */
+  border-radius: 20px;
+
+}
+
+/* Edit styles of the recipe section */
+#recipes{
+  border: 4px solid transparent;
+  background-color: #00b4d8;
+
+  /* Edit size of the section */
+  height: auto;
+  width: 600PX;
+
+  /* Add margin to the section */
+  margin: 30px auto;
+
+  /* Give the border extra style */
+  border-radius: 20px;
 }
 
 
-.important{
-  /*Display important text in bold*/
-  font-weight: bold;
+
+#links li{
+  /* Change display type */
+  display: inline-block;
+  
+  /* Add padding between the items */
+  height: auto;
+  width: 200px;
+
+  border: 4px solid black;
+
+  margin: 0 5px 10px 0px;
+  padding-right: auto;
+
+  /* Remove the bullet points from the list */
+  list-style: none;
 }
 
-
-li{
-  margin-bottom: 20px;
+#links li a{
+  text-decoration: none;
+  color: white;
 }
 
-.link.homepage{
-  /*Change location of the text to the center*/
-  text-align: center;
+#links ul{
+  width: 500px;
+  height: 100px;
+  margin: auto;
+  padding-right: 40px;
+}
+
+footer{
+  background-color: #00b4d8;
+
+  border: 4px solid transparent;
+  background-color: #00b4d8;
+
+  /* Edit size of the section */
+  height: auto;
+  width: 600PX;
+
+  /* Add margin to the section */
+  margin: 20px auto;
+
+  /* Give the border extra style */
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
 }
